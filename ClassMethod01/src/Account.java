@@ -12,17 +12,27 @@ public class Account {
 			return true;
 		}
 		if (o instanceof Account) {
-		Account a = (Account)o;
-		String an1 = this.accountNumber.trim();
-		String an2 = this.accountNumber.trim();
-		if(an1.equals(an2)) {
-			return true;
+			Account a = (Account) o;
+			String an1 = this.accountNumber.trim();
+			String an2 = this.accountNumber.trim();
+			if (an1.equals(an2)) {
+				return true;
+			}
+			return false;
 		}
-		return false;
+	}
+
+	public String concatPath(String folder,String file) {
+		if (!folder.endsWith("¥¥")) {
+			folder += "¥¥";
 		}
-		public String coacstPath(String folder,String file) {
-if (!folder.endsWith())
+		return folder + file;
+	}
+	public String concatPath(String folder,String file) {
+		if (!folder.endsWith("¥¥")) {
+			folder += "¥¥";
 		}
+		return folder + file;
 	}
 
 }
