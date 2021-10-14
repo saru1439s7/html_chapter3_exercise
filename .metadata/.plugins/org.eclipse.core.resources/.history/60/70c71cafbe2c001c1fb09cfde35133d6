@@ -1,0 +1,8 @@
+
+public class Chapter05 {
+	public static void main(String[] args) {
+		long a = 10051101;
+		System.out.println(a);
+
+	}
+}
