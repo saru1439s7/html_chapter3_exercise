@@ -2,5 +2,6 @@
 <runner version="1.0.0">
     <category expanded="true" name="カテゴリーなし">
         <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Ready02"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Variable01"/>
     </category>
 </runner>
