@@ -25,7 +25,7 @@ class Car extends Vehicle {
     System.out.println("走行距離：" + this.distance + "km");
     System.out.println("ガソリン量：" + this.fuel + "L");
   }
-
+      
   public void charge(int litre) {
     System.out.println(litre + "L給油します");
     if (litre <= 0) {
