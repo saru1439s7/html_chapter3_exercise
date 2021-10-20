@@ -34,10 +34,10 @@ public class Chapter8 {
 		//		　3. 拡張「for」文
 		//		　・「2.」の配列をループ
 		//		　・要素の値が偶数の場合は、continue文で処理をスキップ、奇数の場合は出力
-		int number5 = 1;
-		while (number5 < 5) {
-			System.out.println("１の答え"+number5*number5);
-		}
+//		int number5 = 1;
+//		while (number5 < 5) {
+//			System.out.println("１の答え"+number5*number5);
+//		}
 		
 	}
 
