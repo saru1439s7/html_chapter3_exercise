@@ -4699,3 +4699,96 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.767
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.771
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.808
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.810
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.854
+!MESSAGE buffering callback sts4.classpath.NYjlZICk 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.885
+!MESSAGE buffering callback sts4.classpath.oszMUSKX 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.886
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.886
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.888
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.892
+!MESSAGE buffering callback sts4.classpath.NYjlZICk 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.897
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.903
+!MESSAGE buffering callback sts4.classpath.oszMUSKX 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.905
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.906
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.909
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.910
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.910
+!MESSAGE buffering callback sts4.classpath.NYjlZICk 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.911
+!MESSAGE buffering callback sts4.classpath.oszMUSKX 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.912
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.915
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.916
+!MESSAGE buffering callback sts4.classpath.NYjlZICk 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.917
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.922
+!MESSAGE executing callback sts4.classpath.NYjlZICk 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.922
+!MESSAGE buffering callback sts4.classpath.oszMUSKX 15 false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.929
+!MESSAGE executing callback sts4.classpath.oszMUSKX 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:22.986
+!MESSAGE executing callback sts4.classpath.oszMUSKX FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-10-25 20:56:22.987
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.oszMUSKX'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-25 20:56:24.104
+!MESSAGE executing callback sts4.classpath.NYjlZICk SUCCESS [終了しました]
