@@ -4922,3 +4922,6 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 2 0 2021-10-28 22:55:30.140
+!MESSAGE 'org.eclipse.mylyn.java.ui' プラグインからの 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' 候補コンピューターが正常に完了しませんでした。 拡張の 'computeCompletionProposals()' 命令からの戻りが遅すぎます。
