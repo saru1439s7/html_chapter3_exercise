@@ -1,6 +1,7 @@
 
 public class Fibonacchi {
 	public static void main(String[] args) {
+		//フィボナッチを並べる
 		int f0, f1, fn;
 		f0 = 0;
 		System.out.println(f0);
