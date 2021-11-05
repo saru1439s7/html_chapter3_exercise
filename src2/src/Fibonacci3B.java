@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.stream.IntStream;
 
 public class Fibonacci3B {
-
+//大きいフィボナッチ数
     private static final BigInteger ZERO = BigInteger.ZERO;
     private static final BigInteger ONE = BigInteger.ONE;
     private static final BigInteger TWO = ONE.add(ONE);

@@ -24,6 +24,7 @@ public class Yakusu_kosu {
 		Scanner sc1 = new Scanner(System.in);
 		long n1 = sc1.nextLong();
 		for (long i = (long) Math.sqrt(n1);; --i) {
+			//[;; --i]値を1減らす
 			if (n1 % 1 == 0) {
 				long res1 = i + n1 / i;
 				System.out.println(res1);
