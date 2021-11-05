@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class Pitgora1 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
-
+//a、b、c の各個について総当たりで、a2 = b2 + c2 が成立するか調べ、成立したときに
+				//a、b、c の値を表示す
 		int a;
 		int b;
 		int c;
