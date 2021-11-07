@@ -18,7 +18,7 @@ public class Fibonacci3B {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
 
-        int n = 1800;
+        int n = 32;
         IntStream.range(1, n)
                 .forEach(i -> fib(BigInteger.valueOf(i)));
 
