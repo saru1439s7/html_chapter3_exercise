@@ -2,28 +2,23 @@ import java.util.Arrays;
 
 public class SimpleClass {
 	public static int main(int[] args) {
-		int kansan;
-		int a[] = {1,2,-1,2,3};
-		
-		int kansan (int a) {
-			if (a<=2) {
-				kansan =++ a;
-				return kansan;
-			}
-		}
+		//		int kansan;
+		int a[] = { 1, 2, -1, 2, 3 };
+
 	}
 
-	//	for( int i=0; i<a.length; i++ ) {
-	//	double kansan =0;
-	//	daouble[] a = {1,2,-1,2,3};
-	//	if (a<=2) {
-	//	kansan += a[i];}
-	//		
-	//	}
+}
 
 	private static void display(int[] arr) {
+	//	int kansan;
+
+	int kansan(int a) {
 		int kansan;
-		String display= int kansan;
-		System.out.println("値は"+display+"です。");
+		if (a <= 2) {
+			kansan = ++a;
+			return kansan;
+		}
+		//String display= int kansan;
+		System.out.println("値は" + kansan + "です。");
 	}
 }
