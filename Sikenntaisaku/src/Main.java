@@ -106,38 +106,73 @@ public class Main {
 		// 変数triangleAreaを出力してください
 		System.out.println(triangleArea);
 
-		double number1=8.5;
+		double number1 = 8.5;
 
-	    // double型の変数number2を定義し、3.4を代入してください。
-	    double number2=3.4;
+		// double型の変数number2を定義し、3.4を代入してください。
+		double number2 = 3.4;
 
-	    // number1にnumber2を足した値を出力してください
-	    System.out.println(number1+number2);
+		// number1にnumber2を足した値を出力してください
+		System.out.println(number1 + number2);
 
-	    // number1からnumber2を引いた値を出力してください
-	    System.out.println(number1-number2);
-	    int month = 12;
-	    int date = 31;
+		// number1からnumber2を引いた値を出力してください
+		System.out.println(number1 - number2);
+		int month = 12;
+		int date = 31;
 
-	    // 「12月31日」となるように変数と文字列を連結して出力してください
-	    System.out.println(month+"月"+date+"日");
+		// 「12月31日」となるように変数と文字列を連結して出力してください
+		System.out.println(month + "月" + date + "日");
 
-	    // 7を2で割った値を出力してください
-	    System.out.println(7/2);
+		// 7を2で割った値を出力してください
+		System.out.println(7 / 2);
 
-	    // 7.0を2.0で割った値を出力してください
-	    System.out.println(7.0/2.0);
+		// 7.0を2.0で割った値を出力してください
+		System.out.println(7.0 / 2.0);
 
-	    // 7を2.0で割った値を出力してください
-	    System.out.println(7/2.0);
-	    int number1 = 7;
-	    int number2 = 2;
-	    System.out.println(number1 / number2);
+		// 7を2.0で割った値を出力してください
+		System.out.println(7 / 2.0);
+		int number1 = 7;
+		int number2 = 2;
+		System.out.println(number1 / number2);
 
-	    // number1をdouble型にキャストし、number2で割った値を出力してください
-	    System.out.println((double)number1 / number2);
+		// number1をdouble型にキャストし、number2で割った値を出力してください
+		System.out.println((double) number1 / number2);
 
+		String name = "Masayuki";
 
+		// 変数ageに、好きな年齢を代入してください
+		int age = 50;
+
+		// 変数heightに、好きな身長を代入してください（例: 1.2）
+		double height = 1.8;
+
+		// 変数weightに、好きな体重を代入してください（例: 20.0）
+
+		double weight = 58.0;
+		// 変数bmiに、BMIを計算して代入してください
+		double bmi = weight / height / height;
+
+		// 名前、年齢、身長、体重、BMIに関する情報を出力してください
+		System.out.println("名前:" + name);
+		System.out.println("年齢: " + age);
+		System.out.println("身長:" + height);
+		System.out.println("体重: " + weight);
+		System.out.println("BMI:" + bmi);
+		System.out.println(true);
+
+		// 「false」を用いて、「偽」を表す真偽値を出力してください
+		System.out.println(false);
+
+		// 「==」を用いて、値を比較した結果を出力してください
+		System.out.println(12 / 4 == 3);
+
+		// 「!=」を用いて、値を比較した結果を出力してください
+		System.out.println(12 / 4 != 3);
+
+		// 変数を定義し、値を比較した結果を代入してください
+		boolean bool = 3 * 9 == 27;
+
+		// 変数boolの値を出力してください
+		System.out.println(bool);
 
 	}
 }
