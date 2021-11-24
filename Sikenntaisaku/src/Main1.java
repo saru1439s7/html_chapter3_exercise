@@ -1,5 +1,6 @@
-
-public class Main {
+import java.io.*;
+import java.util.Scanner;
+public class Main1 {
 	public static void main(String[] args) {
 
 		//この文章をコメントにしてください");
@@ -292,22 +293,153 @@ public class Main {
 		for (int i = 0; i < names.length; i++) {
 			System.out.println("私の名前は" + names[i] + "です");
 		}
-		for(String name:names){
-		      System.out.println("私の名前は"+name+"です");
-		    }
+		for (String name : names) {
+			System.out.println("私の名前は" + name + "です");
+		}
 
-		int[] numbers={1, 4, 6, 9, 13, 16};
+		int[] numbers = { 1, 4, 6, 9, 13, 16 };
 
-	    int oddSum = 0;
-	    int evenSum = 0;
+		int oddSum = 0;
+		int evenSum = 0;
 
-	    // for文を用いて、配列numbersの偶数の和と奇数の和を求めてください
-	    for(int number:numbers){
-	      if(number%2==0){
-	        evenSum+=number;
+		// for文を用いて、配列numbersの偶数の和と奇数の和を求めてください
+		for (int number : numbers) {
+			if (number % 2 == 0) {
+				evenSum += number;
 
-	      }else{
-	        oddSum+=number;
-	      }
+			} else {
+				oddSum += number;
+			}
+		}
+		int z = 2;
+		if (z % 2 == 0) {
+			if (x >= 0) {
+				System.out.println("正の偶数");
+			} else {
+				System.out.println("負の偶数");
+			}
+		} else {
+			if (x >= 0) {
+				System.out.println("正の奇数");
+			} else {
+				System.out.println("負の奇数");
+			}
+		}
+
+		//	x は y より小さく、かつ、x と y は共に偶数である。
+		//	x と y は等しく、かつ、負の数である。
+		//	x は y より小さい、または、x は偶数である。
+		//	x は 10 以下または 100 以上で、かつ、y は 10 以上かつ 100 以下である。
+		//	x も y も負の数である、ではない。（ x も y も負の数である、の否定）
+		int y;
+		if (x < y && x % 2 == 0 && y % 2 == 0) {
+			System.out.println("x は y より小さく、かつ、x と y は共に偶数である。");
+		}
+		if (x == y && x < 0) {
+			System.out.println("x と y は等しく、かつ、負の数である。");
+		}
+		if (x < y || x % 2 == 0) {
+			System.out.println("x は y より小さい、または、x は偶数である。");
+		}
+		if (x <= 10 || x >= 100 && 10 <= y && y <= 100) {
+			System.out.println("x は 10 以下または 100 以上で、かつ、y は 10 以上かつ 100 以下である。");
+		}
+		if (!(x < 0 && y < 0)) {
+			System.out.println("x も y も負の数である、ではない。（ x も y も負の数である、の否定）");
+		}
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int wins = 0;
+		for (int i = 0; i < 10; i++) {
+			int result = Integer.parseInt(br.readLine());
+			if (result == 1) {
+				wins += 1;
+			}
+			System.out.println(wins + "かち");
+		}
+		int max_v = 0;
+		int min_v = 0;
+		for (int n = 0; n < 10; n++) {
+			int v = Integer.parseInt(br.readLine());
+			if(n==0) {
+				 max_v = v;
+				 min_v = v;
+			}else {
+				if(v>max_v) {
+					max_v=v;
+				}
+				if(v<min_v){
+					min_v=v;
+				}
+					
+			}
+		}
+		System.out.println("最小"+min_v + "最大："+max_v);
+		
+		
+		
+		 
+			    printData(fullName("Kate", "Jones"), 27);
+			    
+			    // fullNameメソッドを用いて、printDataの引数を書き換えてください
+			    printData(fullName("John", "Christopher", "Smith"), 65);
+			  }
+
+			  public static void printData(String name, int age) {
+			    System.out.println("私の名前は" + name + "です");
+			    System.out.println("年齢は" + age + "歳です");
+			  }
+
+			  public static String fullName(String firstName, String lastName) {
+			    return firstName + " " + lastName;
+			  }
+			  
+			  // fullNameメソッドを定義してください
+			  public static String fullName(String firstName,String middleName,String lastName){
+			    return firstName + " " + middleName + " " + lastName;
+			  }
+			  public static void main(String[] args) {
+				    printData(fullName("Kate", "Jones"), 27, 1.6, 50.0);
+				    printData(fullName("John", "Christopher", "Smith"), 65, 1.75, 80.0);
+				  }
+
+				  public static void printData(String name, int age, double height, double weight) {
+				    System.out.println("私の名前は" + name + "です");
+				    System.out.println("年齢は" + age + "歳です");
+				    System.out.println("身長は" + height + "mです");
+				    System.out.println("体重は" + weight + "kgです");
+				    
+				    // 変数bmiに、bmiメソッドを用いてBMIを代入してください
+				    double bmi= bmi(height,weight);
+				    
+				    // 変数bmiを用いて、「BMIは◯◯です」と出力してください
+				    System.out.println("BMIは"+bmi+"です");
+				    
+				  }
+
+				  public static String fullName(String firstName, String lastName) {
+				    return firstName + " " + lastName;
+				  }
+				  
+				  public static String fullName(String firstName, String middleName, String lastName) {
+				    return firstName + " " + middleName + " " + lastName;
+				  }
+				  
+				  // bmiメソッドを定義してください
+				  
+				  public static double bmi(double height,double weight){
+				    return weight / height / height;
+				  }
+				  Scanner scanner = new Scanner(System.in);
+				    
+				    System.out.print("名前： ");
+				    
+				    // 変数nameを定義し、コンソールから文字列を受け取って代入してください
+				    String name = scanner.next();
+				    
+				    // 「こんにちは◯◯さん」と出力してください
+				     System.out.print("こんにちは"+name+"さん");
+		
+
 	}
 }
