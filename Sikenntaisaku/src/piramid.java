@@ -10,14 +10,17 @@
 //(1)(2)で一つの行が作成され、これを繰り返す→この場合5行
 public class piramid {
 	public static void main(String[] args) {
+		//5回繰り返す
 		for (int i = 0; i<5; i++) {
+			//スペースをあける[0]0,[1]1,[2]2,[3]3...
 			for (int x = 0; x < i ; x++) {
-				System.out.println(" ");
+				System.out.print(" ");
 			}
+			//9-2iずつ減ずる
 			for (int l = 0; l <(5-i)*2-1; l++) {
-				System.out.println("＊");
+				System.out.print("＊");
 			}
-			//System.out.print("\n");
+			System.out.print("\n");
 		}
 
 
