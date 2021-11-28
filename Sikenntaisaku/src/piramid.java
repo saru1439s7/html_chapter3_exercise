@@ -22,7 +22,7 @@ public class piramid {
 			}
 			System.out.print("\n");
 		}
-
+//prinlnすると文字列の表示後に改行される
 
 	}
 }
