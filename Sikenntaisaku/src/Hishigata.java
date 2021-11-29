@@ -69,9 +69,7 @@ public class Hishigata {
 		//たて,横
 		//http://www.javaroad.jp/bbs/answer.jsp?q_id=20080407110225731
 
-		int n=5
-				
-				;
+		int n=5;
 		for (int i =  - n; i <= n; i++) {
 			for (int j =  - n; j <= n; j++)
 				System.out.print(
