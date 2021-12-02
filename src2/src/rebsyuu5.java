@@ -1,17 +1,17 @@
-
 public class rebsyuu5 {
+	// int型配列を受け取り、
+	// 配列内の要素すべてに1を加えるメソッド
+	public static void incArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			array[i]++;
+		}
+	}
+
 	public static void main(String[] args) {
-		introduceOneself();
-		String adress = "d@dddd";
-		String title = "こんにちは";
-		String body = "内容"+ "";
-
-		mail(adress,title,body);
+		int[] array = { 1, 2, 3 };
+		incArray(array);
+		for (int i : array) {
+			System.out.println(i);
+		}
 	}
-
-	public static void mail(String adress,String title,String body) {
-		System.out.println(adress);
-		System.out.println("タイトル"+title+"内容"+body);
-	}
-
 }
