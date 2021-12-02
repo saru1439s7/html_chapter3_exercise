@@ -11,7 +11,9 @@
 public class piramid {
 	public static void main(String[] args) {
 		//5回繰り返す
-		for (int i = 0; i<5; i++) {
+		f
+		
+		or (int i = 0; i<5; i++) {
 			//スペースをあける[0]0,[1]1,[2]2,[3]3...
 			for (int x = 0; x < i ; x++) {
 				System.out.print(" ");
