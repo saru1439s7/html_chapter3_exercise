@@ -1,34 +1,58 @@
 class rebsyuu5 {
 	public static void main(String args[]) {
-		Television tv1 = new Television();
-		Television tv2 = new Television();
+		int number =12;
+		switch(number%3){
+	      case 0 :
+	        System.out.println("3で割り切れます");
+	        break;
+	        case 1 :
+	        System.out.println("3で割ると1余ります");
+	        break;
+	        case 2:
+	        System.out.println("3で割ると2余ります");
+	        break;
+	    }
+		while(number>0){
+		      System.out.println(number);
+		      number -=1;
+		    }
 
-		tv1.setPlace("居間");
-		tv2.setPlace("寝室");
+		for(int i = 1;i<=10;i++){
+		      System.out.println(i+"回目のループです");
+		    }
+	  }
 
-		tv1.setChannel(1);
-		tv2.setChannel(8);
-
-		tv1.dispChannel();
-		tv2.dispChannel();
 	}
-}
-
-class Television {
-	int channelNo;
-	String place;
-
-	void setChannel(int newChannelNo) {
-		channelNo = newChannelNo;
-	}
-
-	void setPlace(String newPlace) {
-		place = newPlace;
-	}
-
-	void dispChannel() {
-		System.out.println(place + "にあるテレビの現在のチャンネルは " + channelNo + " です");
-	}
+//	public static void main(String args[]) {
+//		Television tv1 = new Television();
+//		Television tv2 = new Television();
+//
+//		tv1.setPlace("居間");
+//		tv2.setPlace("寝室");
+//
+//		tv1.setChannel(1);
+//		tv2.setChannel(8);
+//
+//		tv1.dispChannel();
+//		tv2.dispChannel();
+//	}
+//}
+//
+//class Television {
+//	int channelNo;
+//	String place;
+//
+//	void setChannel(int newChannelNo) {
+//		channelNo = newChannelNo;
+//	}
+//
+//	void setPlace(String newPlace) {
+//		place = newPlace;
+//	}
+//
+//	void dispChannel() {
+//		System.out.println(place + "にあるテレビの現在のチャンネルは " + channelNo + " です");
+//	}
 }
 //	public static void main(String[] args) {
 //		//よくわからん。。。あとでもう一度
@@ -49,7 +73,7 @@ class Television {
 //				//条件に当てはまらない場合
 //			} else {
 //				//表示
-//				
+//
 //				System.out.print("," + i);
 //			}
 //		}
