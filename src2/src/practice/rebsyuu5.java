@@ -1,42 +1,84 @@
 package practice;
 class rebsyuu5 {
 	public static void main(String[] args) {
-		 double fuelCost = 12.5;
-	        // 残量（L）
-	        double fuelAmount = 55.0;
-
-	        Car car = new Car(fuelCost, fuelAmount);
-
-	        car.move(20);
-	        System.out.println("残量は、" + car.getFuelAmount() + "です");
-	    }
-	}
+	 int[] []scores  ={
+			 {100, 80, 903, 901},
+	         {90, 90, 90, 90},
+	         {60, 90, 80, 70}
+	 };
+	 System.out.println(scores[0][3]);
+	 System.out.println(scores[0][2]);
+	 System.out.println("以下");
+	 for(int[] score: scores) {
+		 for(int i :score) {
+			 System.out.println(i);
+		 }
+	 }
+	 }
 }
 //	public static void main(String[] args) {
+//		 double fuelCost = 12.5;
+//	        // 残量（L）
+//	        double fuelAmount = 55.0;
 //
-//		double triangleArea = calcTriangleArea(10.0, 5.0);
-//		System.out.println(triangleArea);
-//		double CircleArea = clacCircleArea(4.0);
-//		System.out.println(CircleArea);
-//	}
-//	
+//	        Car car = new Car(fuelCost, fuelAmount);
 //
-//	public static double calcTriangleArea(double bottom, double height) {
-//		double area = (bottom * height) / 2;
-//		return area;
-//	}
-//
-//	public static double clacCircleArea(double radius) {
-//		double area = radius * radius * 3.14;
-//		return area;
-//
+//	        car.move(20);
+//	        System.out.println("残量は、" + car.getFuelAmount() + "です");
+//	    }
 //	}
 //}
-//	public static void main(String args[]) {
-//		int number =12;
-//		switch(number%3){
-//	      case 0 :
-//	        System.out.println("3で割り切れます");
+////class Car extends Vehicle {
+//	  // インスタンスフィールドfuelを定義してください
+//	  private int fuel = 50;
+//	  
+//	  // fuelフィールドのゲッターを定義してください
+//	  public int getFuel(){
+//	    return this.fuel;
+//	  }
+//	  
+//	  // インスタンスメソッドchargeを定義してください
+//	  
+//	  
+//	  public void charge(int litre) {
+//	    System.out.println(litre + "L給油します");
+//	    if (litre <= 0) {
+//	      System.out.println("給油できません");
+//	    } else if (litre + this.fuel >= 100) {
+//	      System.out.println("満タンまで給油します");
+//	      this.fuel = 100;
+//	    } else {
+//	      this.fuel += litre;
+//	    }
+//	    System.out.println("ガソリン量：" + this.fuel + "L");
+//	  }
+//	}
+//
+////	public static void main(String[] args) {
+////
+////		double triangleArea = calcTriangleArea(10.0, 5.0);
+////		System.out.println(triangleArea);
+////		double CircleArea = clacCircleArea(4.0);
+////		System.out.println(CircleArea);
+////	}
+////	
+////
+////	public static double calcTriangleArea(double bottom, double height) {
+////		double area = (bottom * height) / 2;
+////		return area;
+////	}
+////
+////	public static double clacCircleArea(double radius) {
+////		double area = radius * radius * 3.14;
+////		return area;
+////
+////	}
+////}
+////	public static void main(String args[]) {
+////		int number =12;
+////		switch(number%3){
+////	      case 0 :
+////	        System.out.println("3で割り切れます");
 //	        break;
 //	        case 1 :
 //	        System.out.println("3で割ると1余ります");

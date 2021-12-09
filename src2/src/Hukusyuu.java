@@ -7,19 +7,19 @@ public class Hukusyuu {
 		int[] a = new int[20];
 
 		for (int i = 0; i <= a.length; i++) {
-			
+
 			a[i] = i * 5;
-			
-						if (i % 2 == 0) {
-							if (i <= 10) {
-								System.out.print("奇数"+a[i]);
-								System.out.println("");
-							}
-						} else {
-							if (i > 10) {
-							System.out.print("偶数"+a[i]);
-						}
-						}
+
+			if (i % 2 == 0) {
+				if (i <= 10) {
+					System.out.print("奇数" + a[i]);
+					System.out.println("");
+				}
+			} else {
+				if (i > 10) {
+					System.out.print("偶数" + a[i]);
+				}
+			}
 		}
 
 	}
