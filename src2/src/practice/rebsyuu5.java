@@ -1,24 +1,33 @@
 package practice;
 class rebsyuu5 {
 	public static void main(String[] args) {
-	 int[] []scores  ={
-			 {100, 80, 903, 901},
-	         {90, 90, 90, 90},
-	         {60, 90, 80, 70}
-	 };
-	 System.out.println(scores[0][3]);
-	 System.out.println(scores[0][2]);
-	 System.out.println("以下");
-	 for(int[] score: scores) {
-		 for(int i :score) {
-			 System.out.println(i);
-		 }
-	 }
-	 }
+		char c ='y';
+		String result;
+		result = (c=='y')?"YES":"NO";
+		System.out.println(result);
+		
+	}
 }
+//	//.２次元配列
 //	public static void main(String[] args) {
-//		 double fuelCost = 12.5;
-//	        // 残量（L）
+//	 int[] []scores  ={
+//			 {100, 80, 903, 901},
+//	         {90, 90, 90, 90},
+//	         {60, 90, 80, 70}
+//	 };
+//	 System.out.println(scores[0][3]);
+//	 System.out.println(scores[0][2]);
+////	 System.out.println("以下");
+////	 for(int[] score: scores) {
+////		 for(int i :score) {
+////			 System.out.println(i);
+//		 }
+//	 }
+//	 }
+//}
+////	public static void main(String[] args) {
+////		 double fuelCost = 12.5;
+////	        // 残量（L）
 //	        double fuelAmount = 55.0;
 //
 //	        Car car = new Car(fuelCost, fuelAmount);
