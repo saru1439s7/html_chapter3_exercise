@@ -3,12 +3,17 @@ package practice;
 
 class rebsyuu5 {
 	public static void main(String[] args) {
-		int[] ages = { 20, 30, 51 };
-		for (int age : ages) {
-			System.out.println(age);
+		int score[] = {80,70,95,100};
+		String label[] = {"a","b","c","dd"};
+		for(int i = 0;i<score.length;i++) {
+			System.out.println(label[i]+"の点数"+score[i]);
 		}
 	}
 }
+//int[] ages = { 20, 30, 51 };
+//for (int age : ages) {
+//	System.out.println(age);
+////}
 //public static void main(String[] args) {
 //	int[] ages = { 10, 20, 51 };
 //	System.out.println(Arrays.toString(ages));
