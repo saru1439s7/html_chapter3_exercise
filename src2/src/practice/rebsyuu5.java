@@ -3,14 +3,22 @@ package practice;
 
 class rebsyuu5 {
 	public static void main(String[] args) {
-		for (int i = 1; i <= 9; i++) {
-            for (int j = 1; j <= 9; j++) {
-                System.out.print(i + "×" + j + "=" + i * j + "\t"); //最後のタブは見やすさのため
-            }
-            System.out.println(""); //改行のため
-        }
+		int[] ages = { 20, 30, 51 };
+		for (int age : ages) {
+			System.out.println(age);
+		}
 	}
 }
+//public static void main(String[] args) {
+//	int[] ages = { 10, 20, 51 };
+//	System.out.println(Arrays.toString(ages));
+//}
+//for (int i = 1; i <= 9; i++) {
+//  for (int j = 1; j <= 9; j++) {
+//      System.out.print(i + "×" + j + "=" + i * j + "\t"); //最後のタブは見やすさのため
+//  }
+//  System.out.println(""); //改行のため
+//}
 //class rebsyuu5 {
 //	public static void main(String[] args) {
 //		char c ='y';
