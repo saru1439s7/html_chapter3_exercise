@@ -3,13 +3,21 @@ package practice;
 
 class rebsyuu5 {
 	public static void main(String[] args) {
-		int score[] = {80,70,95,100};
-		String label[] = {"a","b","c","dd"};
-		for(int i = 0;i<score.length;i++) {
-			System.out.println(label[i]+"の点数"+score[i]);
-		}
+		String str1 = new String("Hello");
+		String str2 = new String("Hello");
+		System.out.println(str1 == str2);
+		
+		String str3 = "Hello";
+		String str4 = "Hello";
+		System.out.println(str3 == str4);
 	}
 }
+
+//int score[] = {80,70,95,100};
+//String label[] = {"a","b","c","dd"};
+//for(int i = 0;i<score.length;i++) {
+//	System.out.println(label[i]+"の点数"+score[i]);
+//}
 //int[] ages = { 20, 30, 51 };
 //for (int age : ages) {
 //	System.out.println(age);

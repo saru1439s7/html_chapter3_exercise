@@ -7,7 +7,7 @@ public class Car {
 	private double fuelAmount;
 
 	// コンストラクタを作成
-public Car(double fuelCost,double fuelAmount) {
+public Car(double fuelCost,double fuelAmount) {v
 	this.fuelCost = fuelCost;
 	this.fuelAmount = fuelAmount;
 }
