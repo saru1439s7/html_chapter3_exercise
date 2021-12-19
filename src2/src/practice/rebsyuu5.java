@@ -5,7 +5,11 @@ class rebsyuu5 {
 	public static void main(String[] args) {
 		String str1 = new String("Hello");
 		String str2 = new String("Hello");
+		//格納されている場所が違うのでfalse
+		System.out.println("格納されている場所が違うのから");
 		System.out.println(str1 == str2);
+		System.out.println("格納内容は同じ");
+		System.out.println(str1.equals(str2));
 		
 		String str3 = "Hello";
 		String str4 = "Hello";
