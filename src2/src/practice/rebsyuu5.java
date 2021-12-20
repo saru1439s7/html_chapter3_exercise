@@ -2,21 +2,42 @@
 package practice;
 
 class rebsyuu5 {
+	public static void method() {
+		System.out.println("引数なしのmethodが呼ばれました。");
+	}
+
+	public static void method(int i) {
+		System.out.println("引数にint型をとるmethodが呼ばれ" + i + "を受け取りました。");
+	}
+
+	public static void method(double d) {
+		System.out.println("引数にdouble型をとるmethodが呼ばれ" + d + "を受け取りました。");
+	}
+
+	public static void method(String s) {
+		System.out.println("引数に文字列型をとるmethodが呼ばれ" + s + "を受け取りました。");
+	}
+
 	public static void main(String[] args) {
-		String str1 = new String("Hello");
-		String str2 = new String("Hello");
-		//格納されている場所が違うのでfalse
-		System.out.println("格納されている場所が違うのから");
-		System.out.println(str1 == str2);
-		System.out.println("格納内容は同じ");
-		System.out.println(str1.equals(str2));
-		
-		String str3 = "Hello";
-		String str4 = "Hello";
-		System.out.println(str3 == str4);
+		method(2);
+        method(3.14);
+        method("Goodby.");
+        method();
 	}
 }
-
+////public static void main(String[] args) {
+//	String str1 = new String("Hello");
+//	String str2 = new String("Hello");
+//	//格納されている場所が違うのでfalse
+//	System.out.println("格納されている場所が違うのから");
+//	System.out.println(str1 == str2);
+//	System.out.println("格納内容は同じ");
+//	System.out.println(str1.equals(str2));
+//	
+//	String str3 = "Hello";
+//	String str4 = "Hello";
+//	System.out.println(str3 == str4);
+//}
 //int score[] = {80,70,95,100};
 //String label[] = {"a","b","c","dd"};
 //for(int i = 0;i<score.length;i++) {
