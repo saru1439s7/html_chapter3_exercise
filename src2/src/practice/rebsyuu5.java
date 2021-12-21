@@ -2,29 +2,40 @@
 package practice;
 
 class rebsyuu5 {
-	public static void method() {
-		System.out.println("引数なしのmethodが呼ばれました。");
-	}
 
-	public static void method(int i) {
-		System.out.println("引数にint型をとるmethodが呼ばれ" + i + "を受け取りました。");
-	}
-
-	public static void method(double d) {
-		System.out.println("引数にdouble型をとるmethodが呼ばれ" + d + "を受け取りました。");
-	}
-
-	public static void method(String s) {
-		System.out.println("引数に文字列型をとるmethodが呼ばれ" + s + "を受け取りました。");
+	static int factorial(int n) {
+		if (n <= 1) {
+			return n;
+		}
+		return n * factorial(n - 1);
 	}
 
 	public static void main(String[] args) {
-		method(2);
-        method(3.14);
-        method("Goodby.");
-        method();
+		int ans = factorial(1);
+		System.out.println(ans);
 	}
 }
+//	System.out.println("引数なしのmethodが呼ばれました。");
+//	}
+//
+//	public static void method(int i) {
+//		System.out.println("引数にint型をとるmethodが呼ばれ" + i + "を受け取りました。");
+//	}
+//
+//	public static void method(double d) {
+//		System.out.println("引数にdouble型をとるmethodが呼ばれ" + d + "を受け取りました。");
+//	}
+//
+//	public static void method(String s) {
+//		System.out.println("引数に文字列型をとるmethodが呼ばれ" + s + "を受け取りました。");
+//	}
+//
+//	public static void main(String[] args) {
+//		method(2);
+//        method(3.14);
+//        method("Goodby.");
+//        method();
+//	}
 ////public static void main(String[] args) {
 //	String str1 = new String("Hello");
 //	String str2 = new String("Hello");
